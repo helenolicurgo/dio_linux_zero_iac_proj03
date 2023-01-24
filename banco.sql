@@ -1,5 +1,5 @@
 CREATE TABLE clientes (
-    id_cliente int NOT NULL,
+    id_cliente int NOT NULL AUTO_INCREMENT,
     nome_cliente varchar(50),
     sobrenome_cliente varchar(50),
     endereco_cliente varchar(150),
